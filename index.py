@@ -36,8 +36,8 @@ def add_url() -> Dict[str, str]:
         url_domain, 
         full_url
 
-    If [url] parameter is already added or invalid, returns error 
-    If [url] parameter in URL empty, returns error
+    If [url] parameter is already added or invalid: returns error 
+    If [url] parameter in URL empty: returns error
     '''
     if 'url' in request.args:
         url = request.args['url']
