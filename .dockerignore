@@ -1,0 +1,5 @@
+flask-short/
+*.pyc
+.vscode/
+.DS_Store
+*.gitignore
