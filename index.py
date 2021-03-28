@@ -85,7 +85,6 @@ def get_stats() -> List[Dict[str, str]]:
        }
        ...
     ]
-
     '''
     return jsonify(manager.show_all_urls())
 

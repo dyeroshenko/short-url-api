@@ -6,7 +6,7 @@ from database import Database
 
 class Manager:
     '''
-    A class managing connection between app routes and fucntionality.
+    A class managing connection between app routes and functionality.
     ____________
     Attributes:
         url_services
