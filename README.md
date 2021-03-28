@@ -88,6 +88,6 @@ docker build --tag [project_name] .
 ```
 docker run -p 5000:5000 [project_name]
 ```
-4. Run http://127.0.0.1:5000/ in your browser 
+4. Run (example) http://127.0.0.1:5000/app/usage in your browser or call http://127.0.0.1:5000/api/get_full_stats endpoint with any HTTP library
 
 5. Enjoy! 
