@@ -77,3 +77,17 @@ API allows users to shorten a URL and use it via dedicated web service.
 * Flask
 * SQLite
 * Hashids
+
+## How to install (with Docker)
+1. Clone or download repository
+2. Use Dockerfile to build a docker-image on your machine:
+```
+docker build --tag [project_name] .
+```
+3. Run image in container: 
+```
+docker run -p 5000:5000 [project_name]
+```
+4. Run (example) http://127.0.0.1:5000/app/usage in your browser or call http://127.0.0.1:5000/api/get_full_stats endpoint with any HTTP library
+
+5. Enjoy! 
