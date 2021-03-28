@@ -70,7 +70,7 @@ API allows users to shorten a URL and use it via dedicated web service.
 2. <code><host>/app/usage</code>: Dashboard with API / App usage (stored URLs and linked stats)
 
 
-  ![image](https://raw.githubusercontent.com/dyeroshenko/flask-shortener-api/main/Screenshot%202021-03-07%20at%2020.01.25.png)
+  ![image](https://raw.githubusercontent.com/dyeroshenko/flask-shortener-api/main/dash.png)
 
 ## Tech-stack
 * Python 3
