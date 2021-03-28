@@ -55,7 +55,6 @@ def get_url() -> Dict[int, str]:
     Takes shortened id as url parameter and lookup in DB. 
     If id is present in DB returns jsonified message with URL stats 
     If not in DB returns message 
-
     '''
     if 'id' in request.args:
         id = request.args['id']
