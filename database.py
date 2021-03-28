@@ -1,6 +1,9 @@
 import sqlite3
 
 class Database:
+    '''
+    Enters or initializes (if not created yet: see [init_db] method) SQLite DB.
+    '''
     def __init__(self, db: str) -> None:
         self.db = db
         self.init_db()
