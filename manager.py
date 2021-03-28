@@ -31,8 +31,8 @@ class Manager:
     def verify_url_and_add_to_db(self, url: str) -> Dict[str, str]:
         '''
         Takes URL from [add_url()] method in index.py and validates if URL is valid and not duplicate
-        If valid add URL to DB along with parameters below. 
-        If invalid OR duplicate returns an object with message
+        If valid: add URL to DB along with parameters below. 
+        If invalid OR duplicate: returns an object with message
         '''
         if (self.url_services.check_is_valid_url(url) 
             and not self.url_services.check_if_duplicate(url)):
